@@ -1,0 +1,27 @@
+
+<div class="modal-header">
+    <h3 class="modal-title" ng-bind="endMatchCtrl.modalTitle"></h3>
+</div>
+<div class="modal-body">
+    <div class="row score-row">
+        <div class="col-xs-5">
+            <p ng-bind="endMatchCtrl.gameSetting.users['O'].name"> </p>
+            <div class="user-circle blue">O</div>
+        </div>
+        <div class="col-xs-2">
+           <div>
+               Score
+           </div>
+            <div>
+                <span> {{endMatchCtrl.gameSetting.users['O'].wins}}  </span> :  <span> {{endMatchCtrl.gameSetting.users['X'].wins}} </span>
+            </div>
+        </div>
+        <div class="col-xs-5">
+            <p ng-bind="endMatchCtrl.gameSetting.users['X'].name"> </p>
+            <div class="user-circle red">X</div>
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="endMatchCtrl.ok()">Next</button>
+</div>

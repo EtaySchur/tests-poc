@@ -1,0 +1,29 @@
+{
+  "name": "test-poc",
+  "version": "1.0.0",
+  "description": "test-poc",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "angular": "^1.5.3",
+    "express": "^4.10.2",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.3",
+    "fs": "0.0.2",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+      "phantomjs-prebuilt": "^2.1.7",
+      "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "requirejs": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
